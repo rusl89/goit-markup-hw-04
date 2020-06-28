@@ -529,15 +529,19 @@ footer .title {
     margin-bottom: 50px;
 }
 
-.image {
-    margin-bottom: 20px;
-}
 
 .button-port {
+    display: inline-block;
+    width: auto;
+    padding: 6px 22px;
     color: var(--title-text-color);
     background-color: #F5F4FA;
     margin-right: 8px;
     border: 0px solid transparent
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .button-port:hover, 
@@ -569,6 +573,10 @@ footer .title {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+}
+
+.work-element-boxes {
+    padding: 20px 24px;
 }
 
 .works-list .description {
